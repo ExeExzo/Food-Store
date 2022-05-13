@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="25dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Locations"
+            android:textSize="32sp"
+            android:layout_marginBottom="25dp"/>
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="25dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="г.Нур-Султан, ж.м. Заречное, пр-д 23, д.6, н.п. 118 \nг.Нур-Султан, ж.м. Юго-Восток (правая Сторона), ул.Ер Тарғын, д.38 \nг.Нур-Султан, ж.м. Юго-Восток (правая Сторона), ул.Қордай, д.81, н.п. 11"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team"
+            android:textSize="32sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="35dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="165dp"
+                android:layout_height="215dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:gravity="center_horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:foreground="@drawable/ic_profile"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="150dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="Aruzhan Ulyqpanonva"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_vertical"
+                            android:text="Role"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="165dp"
+                android:layout_height="215dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:foreground="@drawable/ic_profile"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="150dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="Farida \nTagayeva"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_vertical"
+                            android:text="Role"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="165dp"
+                android:layout_height="215dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:gravity="center_horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:foreground="@drawable/ic_profile"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="150dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="Azamat \nNassir"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_vertical"
+                            android:text="Role"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="165dp"
+                android:layout_height="215dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:foreground="@drawable/ic_profile"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="150dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="Alimzhan \nRustem"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="10dp"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_vertical"
+                            android:text="Role"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
